@@ -15,8 +15,8 @@ def main():
     current_time = rospy.Time.now()
     last_time = rospy.Time.now()
 
-    x = 0.0
-    y = 0.0
+    x = 5.0
+    y = -4.0
     th = 0.0
 
     vx = 0.1
