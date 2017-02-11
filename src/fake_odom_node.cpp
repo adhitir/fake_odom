@@ -9,8 +9,8 @@ int main(int argc, char** argv){
   ros::Publisher odom_pub = n.advertise<nav_msgs::Odometry>("fake_odom_topic", 50);
   tf::TransformBroadcaster odom_broadcaster;
 
-  double x = 0.0;
-  double y = 0.0;
+  double x = 5.0;
+  double y = -4.0;
   double th = 0.0;
 
   double vx = 0.1;
